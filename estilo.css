@@ -1,23 +1,40 @@
 * {
     font-family: "Press Start 2P", cursive;
-    font-size: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.texto {
+    position: relative;
+    color: white;
+    top: -40px;
 }
 
 .consola {
-    background-color: gray;
-    width: 400px;
+    background-color:darkslateblue ;
+    width: 425px;
     height: 600px;
-    display: flexbox;
+    border-radius: 0% 0% 10%;
+    border: 2px solid;
+}
+
+.fondo {
+    text-align: center;
+    width: 340px;
+    height: 215px;
+    background-color: black;
+    border: 6px solid;
+    border-radius: 0% 0% 10%;
+}
+
+.fondoP {
+    position: absolute;
+    left: 60px;
 }
 
 button {
     border-radius: 50%;
     background-color: darkblue;
-}
-
-.A1,
-.B1 {
-    background-color: red;
 }
 
 /* Función que hace que los botones  */
@@ -33,45 +50,37 @@ button:hover {
 /* Pantalla */
 .pantalla {
     padding: 45px;
-    border-style: double;
 }
 
 /* posicionamiento y pintado de los botones */
+
 .derecha {
+    position: absolute;
     width: 100px;
     height: 50px;
-    border: 1px solid;
+    left: 280px;
+    top: 410px;
 }
 
-.A1,
-.B1 {
+.A1,.B1,.F1,.F2,.F3,.F4,.start,.select {
     color: white;
+    background-color: dodgerblue;
 }
 
-
-
+/* botones de la izquierda */
 .izquierda {
-    width: 200px;
-    height: 80px;
-    border: 1px solid;
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    top: 400px;
+    left: 40px;
 }
-
-.F1,
-.F2,
-.F3,
-.F4 {
-    color: white;
-}
-
 
 .utilidad {
-    width: 200px;
+    position: absolute;
+    width: 300px;
     height: 40px;
-    border: 1px solid;
-    font-size: 10px;    
-}
-
-.start,
-.select {
-    color: white;
+    font-size: 10px;
+    top: 560px;
+    left: 70px;
 }
