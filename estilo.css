@@ -14,7 +14,7 @@ button{
 
 .A1, .B1 {
     background-color: red;
-    font-size: 40px;   
+    font-size: 30px;   
 }
 /* Función que hace que los botones  */
 .grab {cursor: -webkit-grab; cursor: grab;}
