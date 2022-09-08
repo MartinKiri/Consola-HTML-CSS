@@ -1,0 +1,65 @@
+body{
+
+}
+.consola {
+    background-color: gray;
+    width: 400px;
+    height: 600px;
+}
+
+a:hover{
+    background-color: ;
+}
+
+button{
+    border-radius: 50%;
+    background-color:darkblue ;
+}
+
+.A1, .B1 {
+    background-color: red;
+   
+}
+/* Función que hace que los botones  */
+.grab {cursor: -webkit-grab; cursor: grab;}
+
+button:hover{
+    background: #091D6E;
+}
+
+/* Pantalla */
+.pantalla{
+    padding: 45px;
+}
+
+/* posicionamiento y pintado de los botones */
+.derecha{
+    width: 200px;;
+    height: ;
+    border: 1px solid;
+}
+
+.A1, .B1 {
+    color: white;    
+}
+
+.izquierda{
+    width: 200px;;
+    height: 150px;
+    border: 1px solid;
+}
+
+.F1, .F2, .F3, .F4{
+    color: white;
+}
+
+
+.utilidad{
+    width: 200px;;
+    height: ;
+    border: 1px solid;
+}
+
+.start,.select{
+    color: white;
+}

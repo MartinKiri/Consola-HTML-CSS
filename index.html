@@ -1,31 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consolas</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
-    <Section class="pantalla" >
-        <div class="pantallaPrin">
-            <iframe id="inlineFrameExample"
-            title="Inline Frame Example"
-            width="300"
-            height="200"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
-        </iframe>
-                </div>
-    </Section>
-    <Section class="izquierda" >
-        <div class="botonIzq">
-
+    <div class="consola">
+        <div class="pantalla">
+            <iframe id="inlineFrameExample" title="Inline Frame Example" width="300" height="200"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+            </iframe>
         </div>
-    </Section>
-    <Section class="derecha" >
-        <dic class="botonDer">
+        <div class="botones">
+            <div class="derecha">
+                <button class="A1 grab">A</button>
+                <button class="B1 grab">B</button>
+            </div>
+            <div class="izquierda">
+                <button class="F1 grab">→</button>
+                <button class="F2 grab">←</button>
+                <button class="F3 grab">↓</button>
+                <button class="F4 grab">↑</button>
+            </div>
+            <div class="utilidad">
+                <button class="start grab">START</button>
+                <button class="select grab">select</button>
+            </div>
+        </div>
 
-        </dic>
-    </Section>
+    </div>
 </body>
+
 </html>
