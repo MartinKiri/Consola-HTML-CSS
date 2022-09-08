@@ -1,14 +1,10 @@
 body{
-
+    font-family: 'Press Start 2P', cursive;
 }
 .consola {
     background-color: gray;
     width: 400px;
     height: 600px;
-}
-
-a:hover{
-    background-color: ;
 }
 
 button{
@@ -18,7 +14,7 @@ button{
 
 .A1, .B1 {
     background-color: red;
-   
+    font-size: 40px;   
 }
 /* Función que hace que los botones  */
 .grab {cursor: -webkit-grab; cursor: grab;}
@@ -30,18 +26,21 @@ button:hover{
 /* Pantalla */
 .pantalla{
     padding: 45px;
+    border-style: double;
 }
 
 /* posicionamiento y pintado de los botones */
 .derecha{
-    width: 200px;;
-    height: ;
+    width: 100px;;
+    height: 50px;
     border: 1px solid;
 }
 
 .A1, .B1 {
     color: white;    
 }
+
+
 
 .izquierda{
     width: 200px;;
@@ -56,7 +55,7 @@ button:hover{
 
 .utilidad{
     width: 200px;;
-    height: ;
+    height: 40px;
     border: 1px solid;
 }
 

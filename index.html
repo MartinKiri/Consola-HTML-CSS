@@ -7,14 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consolas</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="consola">
         <div class="pantalla">
-            <iframe id="inlineFrameExample" title="Inline Frame Example" width="300" height="200"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
-            </iframe>
+            <div class="fondoP">
+                <iframe id="inlineFrameExample" title="Inline Frame Example" width="300" height="200"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+                </iframe>
+            </div>
         </div>
         <div class="botones">
             <div class="derecha">
@@ -29,7 +34,7 @@
             </div>
             <div class="utilidad">
                 <button class="start grab">START</button>
-                <button class="select grab">select</button>
+                <button class="select grab">SELECT</button>
             </div>
         </div>
 
