@@ -2,11 +2,12 @@
     font-family: "Press Start 2P", cursive;
     text-align: center;
     font-size: 22px;
+
 }
 
 .texto {
     position: relative;
-    color: white;
+    color: rgb(0, 255, 68);
     top: -40px;
 }
 
@@ -63,8 +64,8 @@ button:hover {
 }
 
 .A1,.B1,.F1,.F2,.F3,.F4,.start,.select {
-    color: white;
-    background-color: dodgerblue;
+    color: rgb(0, 255, 68);
+    background-color: black;
 }
 
 /* botones de la izquierda */
