@@ -1,44 +1,49 @@
-* {
-    font-family: "Press Start 2P", cursive;
-    text-align: center;
-    font-size: 22px;
-
-}
-
-.texto {
-    position: relative;
-    color: rgb(0, 255, 68);
-    top: -40px;
-}
-
+/* Datos de la consola */
 .consola {
-    background-color:darkslateblue ;
-    width: 425px;
+    width: 450px;
     height: 600px;
+    background-color: blue;
+    margin: auto;
+    font-size: 22px;
     border-radius: 0% 0% 10%;
     border: 2px solid;
 }
 
-.fondo {
+/* Diseño de los botones */
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    color: white;
+    background-color: gray;
+    border: 2px solid white;
+}
+
+/* poner texto centrado */
+.texto {
+    font-family: "Press Start 2P";
     text-align: center;
-    width: 340px;
-    height: 215px;
+    font-size: 13px;
+    color: greenyellow;
+}
+
+/* bordes de la pantalla */
+.fondo {
+    margin-left: 50px;
+    width: 370px;
+    height: 250px;
     background-color: black;
-    border: 6px solid;
     border-radius: 0% 0% 10%;
 }
 
-.fondoP {
+/* iframe */
+.mapa {
+    margin: 20px 0px 0px 20px;
     position: absolute;
-    left: 60px;
-}
-
-button {
-    border-radius: 50%;
-    background-color: darkblue;
 }
 
 /* Función que hace que los botones  */
+
 .grab {
     cursor: -webkit-grab;
     cursor: grab;
@@ -48,40 +53,41 @@ button:hover {
     background: #091D6E;
 }
 
-/* Pantalla */
-.pantalla {
-    padding: 45px;
+/* ordenar todos los contenidos de los botones */
+.botones {
+    display: flex;
+    text-align: center;
 }
 
-/* posicionamiento y pintado de los botones */
-
-.derecha {
-    position: absolute;
-    width: 100px;
-    height: 50px;
-    left: 280px;
-    top: 410px;
+/* elementos de las flechitas */
+.izq {
+    display: flex;
 }
 
-.A1,.B1,.F1,.F2,.F3,.F4,.start,.select {
-    color: rgb(0, 255, 68);
-    background-color: black;
+/* girar y poner contenido como toca */
+.flecha1,
+.flecha2,
+.flecha3,
+.flecha4 {
+    transform: rotate(-45deg);
 }
 
-/* botones de la izquierda */
-.izquierda {
-    position: absolute;
-    width: 120px;
-    height: 100px;
-    top: 400px;
-    left: 40px;
+.rotar {
+    transform: rotate(45deg);
 }
 
+/* Botones de utilidad */
 .utilidad {
-    position: absolute;
-    width: 300px;
-    height: 40px;
-    font-size: 10px;
-    top: 560px;
-    left: 70px;
+    width: 200px;
+    margin: 180px 0px 0px 0px;
+}
+
+
+/* A y B */
+.der {
+    margin: 0px 30px 0px 0px;
+}
+
+.aSalto {
+    margin: 20px;
 }

@@ -4,47 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consolas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gameboy Nintendo 2022</title>
     <link rel="stylesheet" href="./css/estilo.css">
-    <!-- link del cambio de la fuente -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<!-- cambio de fuente con google  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <div class="consola">
-        <hr size=3 color="#3065C2">
         <div class="pantalla">
+            <hr size=2 color="#003d7a">
             <div class="fondo">
-                <div class="fondoP">
-                    <iframe id="inlineFrameExample" width="325" height="205"
+                <div class="mapa">
+                    <!-- pantalla recogida desde un generador de iframes -->
+                    <iframe id="ifram" width="320" height="200" 
                         src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
                     </iframe>
                 </div>
             </div>
-        </div>
-        <div class="texto">
-            <h1>GAMEBOY NINTENDO 2022</h1>
-        </div>
-        <div class="botones">
-            <div class="derecha">
-                <button class="A1 grab">A</button>
-                <button class="B1 grab">B</button>
+            <div class="texto">
+                <h1>GAMEBOY NINTENDO 2022 COLOR</h1>
             </div>
-            <div class="izquierda">
-                <button class="F1 grab">→</button>
-                <button class="F2 grab">←</button>
-                <button class="F3 grab">↓</button>
-                <button class="F4 grab">↑</button>
-            </div>
-            <div class="utilidad">
-                <button class="start grab">START</button>
-                <button class="select grab">SELECT</button>
-            </div>
-        </div>
+            <div class="botones">
+                <div class="izq">
+                    <div class="rotar">
+                        <button class="flecha1 grab">↑</button>
+                        <button class="flecha2 grab">→</button>
+                        <button class="flecha3 grab">←</button>
+                        <button class="flecha4 grab">↓</button>
+                    </div>
+                </div>
+                <div class="utilidad">
+                    <button class="start grab">Start</button>
+                    <button class="select grab">Select</button>
+                </div>
+                <div class="der">
+                    <div class="botones">
+                        <button class="aSalto grab">B</button>
+                        <button class="bSalto grab">A</button>
+                    </div>
+                </div>
 
+            </div>
+        </div>
     </div>
 </body>
 
