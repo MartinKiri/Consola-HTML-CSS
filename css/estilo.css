@@ -62,6 +62,7 @@ button:hover {
 /* elementos de las flechitas */
 .izq {
     display: flex;
+    width: 500px;
 }
 
 /* girar y poner contenido como toca */
@@ -80,14 +81,16 @@ button:hover {
 .utilidad {
     width: 200px;
     margin: 180px 0px 0px 0px;
+    display: flex;
+    
+}
+.largos{
+    width: 100px;
+    height: 25px;
 }
 
 
 /* A y B */
-.der {
-    margin: 0px 30px 0px 0px;
-}
-
 .aSalto {
     margin: 20px;
 }
