@@ -84,40 +84,35 @@ button:hover {
     width: 140px;
     margin: 165px 0px 0px 0px;
     display: flex;
-
+    
 }
-
-.largos {
+.largos{
     width: 80px;
     height: 20px;
 }
 
 /* A y B */
-.der {
+.der{
     margin-left: -30px;
 }
-
-.boton3 {
+.boton3{
     margin: 0 40px 0 0;
-    display: flex;
+    display: flex;    
 }
-
 .aSalto {
     margin: 20px 30px;
 }
 
 /* altavoz con puntitos */
-.altavoz {
+.altavoz{
     border-radius: 50%;
     margin: 0 0 10px;
 }
-
-.fila {
+.fila{
     display: inline-flex;
 }
-
-.p {
+.p{
     height: 10px;
     width: 25px;
     color: black;
-}
+ }
